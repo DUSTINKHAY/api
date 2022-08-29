@@ -10,7 +10,7 @@ class ImageAdmin(admin.ModelAdmin):
 
     list_display=('image', 'title', 'product_description', 'price')
 
-    list_filter=('image', 'title','price')
+    list_filter=( 'title','price')
 
 
 
